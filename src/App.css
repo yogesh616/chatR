@@ -15,6 +15,7 @@
 }
 .auth p {
   color: #000;
+  font-size: clamp(1rem, 1.3vw, 2rem); 
 }
 .google {
   display: flex;
@@ -26,4 +27,29 @@
   width: 90px;
   height: 90px;
 }
-.
+.authBtn {
+  border: none;
+  background: none;
+  font-size: 30px;
+  min-width: 50px;
+  transition: all 0.5s;
+}
+.authBtn:hover {
+  border-bottom: solid 1px #a29797;
+  padding: 10px;
+  cursor: pointer;
+}
+.photoURL {
+  max-width: 100%;
+  max-height: 100%;
+}
+.btn-secondary {
+  transition: all 0.5s;
+}
+.btn-secondary {
+  background-color: #242424;
+  border-color: #242424;
+}
+.displayName {
+  color: #fff;
+}
